@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robot Clicker</title>
+</head>
+<body ng-app= "RobotClicker" ng-controller="RobotController">
+    <img ng-click="handleClick()" src="http://www.returnofkings.com/wp-content/uploads/2014/03/apple-icon-apple.jpg" alt="">
+    <h1>You have clicked {{numClicks}} time</h1>
+    <input type="text" ng-model="robotName" />
+        <h3>Your robot's name is {{robotName}}</h3>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+    <script>
+    var app = angular.module('RobotClicker', []);
+    app.controller('RobotController', ['$scope', function($scope){
+        $scope.numClicks = 0;
+        $scope.robotName = "Luis"
+        $scope.handleClick = function(){
+            $scope.numClicks++;
+        }
+    }]);
+    </script>
+</body>
+</html>

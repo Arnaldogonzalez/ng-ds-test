@@ -1,0 +1,59 @@
+.logo {
+    color: red;
+}
+
+.nav {
+    color: blue;
+    padding: 20px;
+}
+
+button {
+    color: white;
+}
+
+.card button {
+    background-color: rgb(66,244,130);
+}
+
+
+.blog-article p::first-letter {
+    margin-left: 30px;
+}
+
+.blog {
+    background-color: #666;
+    color: #cff;
+}
+
+.gallery img:hover {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.gallery figcaption {
+    padding: 8px;
+}
+
+article {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article-title {
+    text-align: center;
+
+}
+.section-header {
+    text-transform: uppercase;
+}
+.form-input {
+display: block;
+margin-top: 20px;
+margin-bottom: 40px;
+padding: 10px;
+}
+
+footer {
+    background-color: rgb(80,80,80);
+    color: #fa6;
+}

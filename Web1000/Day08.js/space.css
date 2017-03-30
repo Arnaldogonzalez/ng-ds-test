@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    width: auto;
+}
+
+#All {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.space{
+    width: 110%;
+    margin: auto;
+}
+
+.planet{
+    max-width: 300px;
+    
+}
